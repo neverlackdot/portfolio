@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Martin Deva Agnas A - Resume</title>
+    <style>
+        /* --- General & Print Styles --- */
+        @page {
+            size: A4;
+            margin: 0.6in; /* Adjusted for better space utilization */
+        }
+
+        body {
+            font-family: 'Calibri', 'Segoe UI', sans-serif;
+            font-size: 10.5pt; /* Slightly smaller for better fit */
+            line-height: 1.4;
+            color: #000;
+            background: #fff;
+            margin: 0;
+            padding: 0;
+        }
+
+        .resume {
+            width: 100%;
+        }
+
+        /* --- Typography --- */
+        h1 {
+            font-size: 22pt;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 2pt;
+            letter-spacing: 1px;
+        }
+
+        h2 {
+            font-size: 14pt;
+            font-weight: bold;
+            border-bottom: 2px solid #000;
+            padding-bottom: 2pt;
+            margin-top: 16pt;
+            margin-bottom: 8pt;
+            text-transform: uppercase;
+        }
+
+        h3 {
+            font-size: 12pt;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        p {
+            margin: 0 0 6pt 0;
+        }
+
+        strong, b {
+            font-weight: bold;
+        }
+
+        em, i {
+            font-style: italic;
+        }
+
+        ul {
+            margin: 6pt 0 10pt 20pt;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 5pt;
+        }
+
+        a {
+            color: #000;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* --- Layout Sections --- */
+        .contact-info {
+            text-align: center;
+            font-size: 10pt;
+            margin-bottom: 10pt;
+        }
+
+        .section {
+            margin-bottom: 8pt;
+        }
+        
+        .section:last-child {
+            margin-bottom: 0;
+        }
+
+        .item {
+            margin-bottom: 12pt;
+            page-break-inside: avoid; /* Prevents items from being split */
+        }
+
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 4pt;
+        }
+
+        .item-title {
+            font-weight: bold;
+        }
+
+        .item-subtitle {
+            font-style: italic;
+            color: #555;
+        }
+
+        .date {
+            font-style: italic;
+            white-space: nowrap;
+        }
+
+        /* --- Skills Specific --- */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10pt 20pt;
+        }
+
+        .skills-category h3 {
+            margin-bottom: 4pt;
+        }
+        
+        .skills-list {
+            list-style-type: none;
+            padding-left: 0;
+            margin: 0;
+            column-count: 2;
+        }
+        
+        .skills-list li {
+            margin-bottom: 3pt;
+            break-inside: avoid-column;
+        }
+
+        /* --- Page Break Control --- */
+        .page-break-before {
+            page-break-before: always;
+        }
+
+        .avoid-page-break {
+            page-break-inside: avoid;
+        }
+
+    </style>
+</head>
+<body>
+
+    <main class="resume">
+        <header>
+            <h1>MARTIN DEVA AGNAS A</h1>
+            <p class="contact-info">
+                1/13, South street, Melakrishnaperi, Tenkasi-627808 | 9787095619 | martindevaagnas369@gmail.com
+            </p>
+            <p class="contact-info" style="margin-top: -5pt;">
+                <!-- Replace with your actual profile links below -->
+                <a href="https://linkedin.com/in/martindevaagnas" target="_blank">linkedin.com/in/martindevaagnas</a> | 
+                <a href="https://github.com/neverlackdot" target="_blank">github.com/neverlackdot</a> | 
+                <a href="https://behance.net/martindevaagnas" target="_blank">behance.net/martindevaagnas</a>
+            </p>
+        </header>
+
+        <section class="section">
+            <h2>Objective</h2>
+            <p>
+                Motivated and detail-oriented Web Designer with a focus on crafting responsive and engaging websites. Proficient in building modern, user-friendly interfaces with an emphasis on performance and accessibility. Experienced in collaborating with teams to deliver intuitive and functional designs. Adept at optimizing layouts for speed and scalability while maintaining clean and maintainable structures. Strong understanding of design principles and industry best practices. Passionate about turning ideas into interactive digital experiences. Continuously learning and adapting to emerging web technologies. Committed to delivering high-quality solutions that meet user needs and project goals.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2>Skills</h2>
+            <div class="skills-grid avoid-page-break">
+                <div class="skills-category">
+                    <h3>Frontend Technologies</h3>
+                    <ul class="skills-list">
+                        <li>HTML5 & Semantic Markup</li>
+                        <li>CSS3 (SASS/SCSS)</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>TypeScript</li>
+                        <li>Angular</li>
+                        <li>Responsive & Mobile-First Design</li>
+                        <li>CSS Grid & Flexbox</li>
+                        <li>Bootstrap & Tailwind CSS</li>
+                       
+                    </ul>
+                </div>
+                <div class="skills-category">
+                    <h3>Design & Prototyping</h3>
+                    <ul class="skills-list">
+                        <li>Figma (UI/UX, Prototyping)</li>
+                        <li>Adobe Photoshop</li>
+                        <li>Adobe Illustrator</li>
+                        <li>Wireframing & Mockups</li>
+                        <li>Design Systems</li>
+                        <li>User Journey Mapping</li>
+                        <li>Usability Testing</li>
+                    </ul>
+                </div>
+                <div class="skills-category">
+                    <h3>CMS & Tools</h3>
+                    <ul class="skills-list">
+                        <li>WordPress</li>
+                        <li>Git & GitHub</li>
+                        <li>Visual Studio Code</li>
+                        <li>Chrome DevTools</li>
+                        <li>Google Analytics</li>
+                        <li>SEO Best Practices</li>
+                        
+                    </ul>
+                </div>
+                <div class="skills-category">
+                    <h3>Professional Skills</h3>
+                    <ul class="skills-list">
+                        <li>Agile/Scrum Methodology</li>
+                        <li>Cross-functional Collaboration</li>
+                        <li>Problem Solving</li>
+                        <li>Attention to Detail</li>
+                        <li>Client Communication</li>
+                        <li>Time Management</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section">
+            <h2>Experience</h2>
+            <div class="item avoid-page-break">
+                <div class="item-header">
+                    <div>
+                        <span class="item-title">Web Designer</span> - <span class="item-subtitle">Infogem Web Solutions</span>
+                    </div>
+                    <span class="date">Nov 2022 - Apr 2024</span>
+                </div>
+                <ul>
+                    <li>Led the initiative in identifying and resolving website issues, enhancing performance and reducing user-affecting errors.</li>
+                    <li>Collaborated directly with clients to gather requirements, conceptualize ideas, and define clear project goals.</li>
+                    <li>Implemented clean, responsive design practices, significantly improving website speed and cross-device usability.</li>
+                    <li>Revamped existing WordPress websites, focusing on UI/UX enhancement and feature integration to meet client expectations.</li>
+                    <li>Managed critical tasks and special projects delegated by senior developers, ensuring timely and high-quality delivery.</li>
+                    <li>Partnered with content writers to ensure visual and textual alignment for a consistent brand message.</li>
+                    <li>Worked with development teams to build responsive layouts, boosting mobile accessibility and user engagement.</li>
+                </ul>
+            </div>
+            <div class="item page-break-before">
+                <div class="item-header">
+                    <div>
+                        <span class="item-title">Web Designer</span> - <span class="item-subtitle">NOHITATU Technologies Pvt Ltd</span>
+                    </div>
+                    <span class="date">2021</span>
+                </div>
+                <ul>
+                    <li>Designed and developed UI screens within an Angular environment, utilizing modular, reusable components for a scalable architecture.</li>
+                    <li>Collaborated with developers to integrate UI designs into Angular templates, ensuring seamless component communication and user experience.</li>
+                    <li>Enhanced application performance by structuring components, services, and modules in accordance with Angular best practices.</li>
+                    <li>Translated Figma and Adobe XD designs into responsive Angular layouts, maintaining a clear folder structure and reusable design patterns.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Projects</h2>
+            <div class="item avoid-page-break">
+                <h3>Personal Portfolio Website</h3>
+                <ul>
+                    <li>Developed a fully responsive portfolio using HTML, CSS, Bootstrap, and JavaScript to showcase skills and projects.</li>
+                    <li>Designed a clean homepage with clear call-to-action buttons and a detailed project section with links to GitHub and live demos.</li>
+                    <li>Ensured adaptive layout across all devices using a combination of Bootstrap, Flexbox, and CSS Grid.</li>
+                </ul>
+            </div>
+            <div class="item avoid-page-break">
+                <h3>ERP Software (Schoolcanvas)</h3>
+                <ul>
+                    <li>Contributed to the design and development of a comprehensive ERP system for school management.</li>
+                    <li>System covered student attendance, timetables, grading, fee management, and real-time bus tracking.</li>
+                    <li>Collaborated with stakeholders to customize modules and integrated web applications for teachers, parents, and students.</li>
+                </ul>
+            </div>
+            <div class="item avoid-page-break">
+                <h3>Dojo Man (Combat Sports Software)</h3>
+                <ul>
+                    <li>Worked on a management software for martial arts tournaments (karate, judo, silambam).</li>
+                    <li>Streamlined the workflow from player registration and scoring to match scheduling and result generation.</li>
+                    <li>Designed a user-friendly interface for managing player profiles, tournaments, and performance tracking.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Education</h2>
+            <div class="item">
+                <div class="item-header">
+                    <div>
+                        <span class="item-title">B.E in Mechanical</span> - <span class="item-subtitle">Einstein College of Engineering, Tirunelveli</span>
+                    </div>
+                    <span class="date">2017</span>
+                </div>
+                <p>CGPA: 7.13</p>
+            </div>
+            <div class="item">
+                <div class="item-header">
+                    <div>
+                        <span class="item-title">HSC</span> - <span class="item-subtitle">SSV Hr Sec School, Mathapattnam</span>
+                    </div>
+                    <span class="date">2015</span>
+                </div>
+                <p>Percentage: 83%</p>
+            </div>
+            <div class="item">
+                <div class="item-header">
+                    <div>
+                        <span class="item-title">SSLC</span> - <span class="item-subtitle">SSV Hr Sec School, Mathapattnam</span>
+                    </div>
+                </div>
+                <p>Percentage: 93%</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Languages</h2>
+            <p>English, Tamil</p>
+        </section>
+
+    </main>
+
+</body>
+</html>
